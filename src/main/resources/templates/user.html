@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+        
+        <!-- link bootsrap css -->
+        <link rel="stylesheet" href="bootstrap-5.3.1/css/bootstrap.min.css">
+
+        <!-- link bootsrap js file-->
+        <script src="bootstrap-5.3.1/js/bootstrap.bundle.min.js"></script>
+
+        <!-- link fontawesome css -->
+        <link rel="stylesheet" href="fontawesome-free-6.4.2/css/all.css" />
+
+        <!-- btn css -->
+        <link rel="stylesheet" href="Css/btn.css">
+
+        <!-- Homework2 css -->
+        <link rel="stylesheet" href="Css/Homework2.css">
+
+        <!-- user js -->
+        <script src="controllerJs/user.js"></script>
+
+        <!-- 3HomeworkTblFunction js-->
+        <script src="Js/3HomeworkTblFunction.js"></script>
+
+        <script src="Js/jQuery.js"></script>
+
+
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row mt-5 mb-5">
+
+            <div class="col-3"></div>
+
+        <div class="col-6">
+
+            <div class="card form-area">
+                <div class="card-body">
+
+                    <div class="row mt-1">
+                        <!-- Form Title start -->
+                        <div class="h1 text-center">User Management </div>
+                        <!-- Form Title end -->
+
+                    </div>
+
+                    <div class="row mt-1">
+
+                        <div class="col-1"></div>
+
+                        <div class="col-10">
+
+                            <!-- Employee start -->
+                            <div class="row mt-4">
+                                <div class="col-3">
+                                    <label for="" class="form-label fw-bold">Employee :</label>
+
+                                    
+                                </div>
+                                <div class="col-9">
+                                    <select name="" class="form-select" id="selectEmployee" >
+                                        <option value=""selected disabled>Select Employee :</option>
+                                        <option value="">Manager</option>
+                                        <option value="">Cashier</option>
+                                        
+                                        <option value=""></option>
+
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Employee end -->
+
+                            <!--User name start  -->
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <label for="" class="form-label fw-bold">User Name :</label>
+
+                                </div>
+                                <div class="col-9">
+                                    <input type="text" class="form-control" id="txtUserName">
+                                </div>
+                            </div>
+
+                            <!--User name end  -->
+
+                            <!-- Password start  -->
+
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <label for="" class="form-label fw-bold">Password :</label>   
+                                </div>
+                                
+                                <div class="col-9">
+                                    <input type="text" class="form-control" id="txtPasswoed">
+                                </div>
+
+                            </div>
+                            <!-- Password start  -->
+
+                            <!-- Repassword start  -->
+
+                            <div class="row mt-3">
+                                <div class="col-3">
+                                    <label for="" class="form-label fw-bold">Re-Password :</label>   
+                                </div>
+                                
+                                <div class="col-9">
+                                    <input type="text" class="form-control" id="txtRepassword">
+                                </div>
+
+                            </div>
+                            <!-- Repassword start  -->
+
+                            <!-- E-mail start  -->
+                                <div class="row mt-3">
+                                <div class="col-3">
+                                    <label for="" class="form-label fw-bold">E-mail :</label>   
+                                </div>
+                                
+                                <div class="col-9">
+                                    <input type="email" class="form-control" id="txtEmail">
+                                </div>
+
+                            </div>
+                            <!-- E-mail start  -->
+
+                            <!-- Role start -->
+                            <div class="row mt-3">
+                                <div class="col-3 m">
+                                    <label for="" class="form-label fw-bold">Role :</label>   
+                                </div>
+
+                                <div class="col-2">
+                                    <div class="form-check">
+
+
+                                        <input type="checkbox" class="form-check-input " id="checkManeger">
+
+                                        <label for="" class="form-check-label fw-bold">Maneger</label>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-2">
+
+                                    <div class="form-check">
+
+                                        <input type="checkbox" class="form-check-input " id="checkCashier">
+
+                                        <label for="" class="form-check-label fw-bold">Cashier</label>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-4">
+
+                                    <div class="form-check">
+
+                                        <input type="checkbox" class="form-check-input " id="checkStoreManeger">
+
+                                        <label for="" class="form-check-label fw-bold">Store Maneger</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Role end -->
+
+                            <!-- Status start -->
+                            <div class="row mt-3">
+
+                                <div class="col-3">
+
+                                    <label for="" class="form-label fw-bold">
+                                        Status :
+                                    </label>
+                                </div>
+
+
+
+                                <div class="col-9">
+
+                                    <div class="form-check">
+
+                                        <input type="checkbox" class="form-check-input " id="checkStatus">
+
+                                        <label for="" class="form-check-label fw-bold">User Account Is Not Active</label>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Status end -->
+
+
+                            <!-- Buttons start -->
+                            <div class="row mt-3 mb-2">
+                                <div class="text-center">
+
+                    
+
+                                    <button type="reset" class="btn fw-bold btnClear">Clear
+                                    </button>
+
+                                    <button type="submit" class="btn fw-bold btnUpdate">Update
+                                    </button>
+
+                                    <button type="submit" class="btn fw-bold btnAdd">Add
+                                    </button>
+
+                                </div>
+                            </div>
+                            <!-- Buttons start -->
+
+                        </div>
+
+                            
+
+
+
+
+                            
+                        </div>
+
+                        <div class="col-1"></div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-3"></div>
+
+
+        </div>
+
+        <section></section>
+        <div class="row">
+
+            <div class="col-1"></div>
+
+            <div class="col-10">
+                <table class="table table-hover table-striped" id="userTbl">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>No</th>
+                            <th>Employee</th>
+                            <th>User Name</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <td>1</td>
+                            <td>Pubudu Madushan</td>
+                            <td>Pubudu</td>
+                            <td>pubudum@gmail.com</td>
+                            <td>Cashier</td>
+                            <td>Active</td>
+                            
+                            
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-1"></div>
+
+            
+
+
+        </div>
+
+        
+
+       
+
+    </div>
+
+    
+
+    
+</body>
+</html>
