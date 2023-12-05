@@ -87,6 +87,6 @@ public class Employee {
     @Column(name = "added_datetime")
     private LocalDateTime added_datetime;
 
-    private String gender;
+    
     
 }
