@@ -22,6 +22,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 
+//add the other things
 
 public class Privilege {
 
